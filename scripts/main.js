@@ -66,7 +66,7 @@ function renderFooter() {
             <span>Notes of Happiness</span>
           </div>
           <p class="footer-tagline">Spreading happiness, one note at a time — free violin performances for seniors, veterans, and children across the Phoenix community.</p>
-          <a class="footer-social" href="${INSTAGRAM_URL}" target="_blank" rel="noopener">Follow along on Instagram &rarr;</a>
+          <a class="footer-social" href="${INSTAGRAM_URL}" style = "font-weight: bold; font-size: 16px;" target="_blank" rel="noopener">Follow along on Instagram &rarr;</a>
         </div>
         <div>
           <div class="footer-heading">Explore</div>
