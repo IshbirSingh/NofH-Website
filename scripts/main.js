@@ -30,7 +30,7 @@ function renderHeader() {
     <div class="nav">
       <a href="index.html" class="nav-logo">
         <img src="${LOGO_PATH}" alt="Notes of Happiness logo" />
-        <span style = "font-size: 30px; margin-left: 15px;">Notes of Happiness</span>
+        <span style = "font-size: 30px; margin-left: 15px;" class = "navTitle">Notes of Happiness</span>
       </a>
       <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
         <span></span><span></span><span></span>
@@ -88,7 +88,7 @@ function renderFooter() {
       </div>
       <div class="footer-bottom">
         <span>&copy; ${new Date().getFullYear()} Notes of Happiness. A 501(c)(3) nonprofit based in Phoenix, AZ.</span>
-        <span>Founded by Gunayan &amp; Mayal Kaur</span>
+        <span>Founded by Gunayan Kaur &amp; Mayal Kaur, Website by Ishbir Singh</span>
       </div>
     </div>
   `;

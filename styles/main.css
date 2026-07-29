@@ -139,6 +139,7 @@ p { margin: 0 0 1em; }
   padding: 0.9rem clamp(1.25rem, 4vw, 2.5rem);
   max-width: var(--container);
   margin: 0 auto;
+  max-height: 105px;
 }
 .nav-logo {
   display: flex;
@@ -193,11 +194,11 @@ p { margin: 0 0 1em; }
   transition: transform 0.25s ease, opacity 0.25s ease;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 1000px) {
   .nav-toggle { display: block; }
   .nav-links {
     position: fixed;
-    inset: 68px 0 auto 0;
+    inset: 105px 0 auto 0;
     flex-direction: column;
     background: #180E06;
     padding: 1.5rem clamp(1.25rem, 4vw, 2.5rem) 2rem;
@@ -605,3 +606,14 @@ p { margin: 0 0 1em; }
 .text-center { text-align: center; }
 .mt-lg { margin-top: 3rem; }
 .max-w { max-width: 640px; margin-left: auto; margin-right: auto; }
+
+@media (max-width: 780px) {
+  .navTitle {
+    font-size: 26px !important;
+    line-height: 36px;
+  }
+}
+
+.motif-divider {
+  display: none !important;
+}
