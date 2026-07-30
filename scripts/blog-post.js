@@ -14,11 +14,11 @@ function initBlogPost() {
   if (!post) {
     mount.style.display = "none";
     if (empty) empty.style.display = "block";
-    document.title = "Post not found — Notes of Happiness";
+    document.title = "Post not found | Notes of Happiness";
     return;
   }
 
-  document.title = `${post.title} — Notes of Happiness`;
+  document.title = `${post.title} | Notes of Happiness`;
 
   const galleryHtml =
     post.gallery && post.gallery.length
