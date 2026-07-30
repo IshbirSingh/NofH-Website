@@ -34,18 +34,5 @@ const BLOG_POSTS = {
       "images/blog/logodraft2.png",
     ]
   },
-  "Second_Blog_Post":{
-    title: "Second Blog Post",
-    date: "July 30, 2026",
-    cover: "images/blog/completelogofinal.png",
-    excerpt: "We have a new website",
-    body: [
-      "gjfkvn;fjdsnvjf.",
-      "fndjsvnfjds;njbjkbkjb.",
-    ],
-    gallery: [
-      "images/blog/logodraft1.png",
-      "images/blog/logodraft2.png",
-    ]
-  }
+  
 }; 
