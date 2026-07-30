@@ -132,9 +132,6 @@ function applyAOSAttributes() {
   // Gallery and team
   addAos('.gallery-grid img', 'zoom-in', 40);
   addAos('.team-grid > *', 'fade-up', 60);
-
-  // Footer
-  addAos('.footer-grid > div, .footer-bottom', 'fade-up', 60);
 }
 
 // Initialize AOS after attributes are applied (if AOS script is loaded)
