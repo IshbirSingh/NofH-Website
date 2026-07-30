@@ -10,9 +10,9 @@ const CONTACT_EMAIL = "nofh.arizona@gmail.com";
 const NAV_LINKS = [
   { label: "Home", href: "index.html", key: "home" },
   { label: "About", href: "about.html", key: "about" },
-  { label: "Get Involved", href: "get-involved.html", key: "get-involved" },
   { label: "Blog", href: "blog.html", key: "blog" },
   { label: "Gallery", href: "gallery.html", key: "gallery" },
+  { label: "Get Involved", href: "get-involved.html", key: "get-involved" },
   { label: "Support", href: "support.html", key: "support" },
   { label: "Contact", href: "contact.html", key: "contact" },
 ];
