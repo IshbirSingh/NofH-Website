@@ -33,7 +33,6 @@ const BLOG_POSTS = {
     ],
     gallery: [
       "images/blog/completelogofinal.png",
-      "  "
     ],
   },
   
