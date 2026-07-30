@@ -32,7 +32,6 @@ const BLOG_POSTS = {
       "Notes of Happiness"
     ],
     gallery: [
-      "  "
       "images/blog/completelogofinal.png",
       "  "
     ],
