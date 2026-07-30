@@ -10,6 +10,7 @@ const CONTACT_EMAIL = "nofh.arizona@gmail.com";
 const NAV_LINKS = [
   { label: "Home", href: "index.html", key: "home" },
   { label: "About", href: "about.html", key: "about" },
+  { label: "Get Involved", href: "get-involved.html", key: "get-involved" },
   { label: "Blog", href: "blog.html", key: "blog" },
   { label: "Gallery", href: "gallery.html", key: "gallery" },
   { label: "Support", href: "support.html", key: "support" },
@@ -78,9 +79,10 @@ function renderFooter() {
           </ul>
         </div>
         <div>
-          <div class="footer-heading">Get Involved</div>
+          <div class="footer-heading">Reach Out</div>
           <ul class="footer-links">
             <li><a href="support.html">Support Us</a></li>
+            <li><a href="get-involved.html">Get Involved</a></li>
             <li><a href="contact.html">Book a Performance</a></li>
             <li><a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a></li>
           </ul>
