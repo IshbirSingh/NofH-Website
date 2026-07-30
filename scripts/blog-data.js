@@ -20,19 +20,20 @@ const BLOG_POSTS = {
   //     "images/home/example-2.jpg",
   //   ],
   // },
-  "First_Blog_Post":{
-    title: "First Blog Post",
+  "first-blog-post":{
+    title: "Launching Our New Website",
     date: "July 30, 2026",
-    cover: "images/blog/completelogofinal.png",
-    excerpt: "We have a new website",
+    cover: "images/blog/blog1pic.png",
+    excerpt: "   ",
     body: [
-      "gjfkvn;fjdsnvjf.",
-      "fndjsvnfjds;njbjkbkjb.",
+      "We are excited to present our NofH website! We are looking forward to beginning this journey with you as we continue our mission of spreading joy through music. This blog will be a place where we share our stories, celebrate the impact of our community, highlight upcoming events, and show how music can bring hope, comfort, and connection to people of all ages.",
+      "A special thank you to our website designer Ishbir Singh for creating such a beautiful and welcoming space for Notes of Happiness. We truly appreciate your hard work and support in helping us share our mission.",
+      "With Joy,",
+      "Notes of Happiness"
     ],
     gallery: [
-      "images/blog/logodraft1.png",
-      "images/blog/logodraft2.png",
-    ]
+      "images/blog/completelogofinal.png",
+    ],
   },
   
 }; 
