@@ -10,9 +10,9 @@ const CONTACT_EMAIL = "nofh.arizona@gmail.com";
 const NAV_LINKS = [
   { label: "Home", href: "index.html", key: "home" },
   { label: "About", href: "about.html", key: "about" },
-  { label: "Get Involved", href: "get-involved.html", key: "get-involved" },
   { label: "Blog", href: "blog.html", key: "blog" },
   { label: "Gallery", href: "gallery.html", key: "gallery" },
+  { label: "Get Involved", href: "get-involved.html", key: "get-involved" },
   { label: "Support", href: "support.html", key: "support" },
   { label: "Contact", href: "contact.html", key: "contact" },
 ];
@@ -99,4 +99,45 @@ function renderFooter() {
 document.addEventListener("DOMContentLoaded", () => {
   renderHeader();
   renderFooter();
+});
+
+/* ------------------ AOS (Animate On Scroll) integration ------------------ */
+function addAos(selector, animation = "fade-up", stagger = 0) {
+  const els = document.querySelectorAll(selector);
+  els.forEach((el, i) => {
+    if (!el.hasAttribute("data-aos")) {
+      el.setAttribute("data-aos", animation);
+      if (stagger) el.setAttribute("data-aos-delay", String(i * stagger));
+    }
+  });
+}
+
+function applyAOSAttributes() {
+  // Hero and page headings
+  addAos('.hero-content', 'fade-up', 80);
+  addAos('.page-hero .eyebrow, .page-hero h1, .page-hero .lede', 'fade-up', 80);
+
+  // Sections, cards and grids
+  addAos('.two-col > div', 'fade-up', 60);
+  addAos('.motif-divider', 'zoom-in');
+  addAos('.stats-grid > div', 'fade-up', 60);
+  addAos('.card, .blog-card, .team-card, .team-member-card, .form-card', 'fade-up', 60);
+  addAos('.blog-card', 'fade-up', 80);
+  addAos('.blog-card-img, .blog-card-body', 'fade-up', 60);
+
+  // Blog post media
+  addAos('.blog-post-cover', 'zoom-in');
+  addAos('.blog-post-gallery img', 'zoom-in', 60);
+
+  // Gallery and team
+  addAos('.gallery-grid img', 'zoom-in', 40);
+  addAos('.team-grid > *', 'fade-up', 60);
+}
+
+// Initialize AOS after attributes are applied (if AOS script is loaded)
+document.addEventListener('DOMContentLoaded', () => {
+  if (typeof applyAOSAttributes === 'function') applyAOSAttributes();
+  if (window.AOS && typeof window.AOS.init === 'function') {
+    window.AOS.init({ once: true, duration: 700, easing: 'ease-out-cubic' });
+  }
 });
