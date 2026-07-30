@@ -20,7 +20,7 @@ const BLOG_POSTS = {
   //     "images/home/example-2.jpg",
   //   ],
   // },
-  "First_Blog_Post":{
+  "first-blog-post":{
     title: "Launching Our New Website",
     date: "July 30, 2026",
     cover: "images/blog/blog1pic.png",
@@ -33,7 +33,7 @@ const BLOG_POSTS = {
     ],
     gallery: [
       "images/blog/completelogofinal.png",
-    ]
+    ],
   },
   
 }; 
