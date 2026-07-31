@@ -5,7 +5,7 @@
    ========================================================================== */
 
 const HERO_IMAGES = [
-  "home1.jpg", "home2.jpg", "home3.jpg", "home4.jpg",
+  "home3.jpg", "home1.jpg", "home2.jpg", "home4.jpg",
 ];
 
 const HERO_IMAGE_FOLDER = "images/home/";
