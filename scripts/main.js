@@ -17,6 +17,16 @@ const NAV_LINKS = [
   { label: "Contact", href: "contact.html", key: "contact" },
 ];
 
+function ensureFontAwesome() {
+  if (document.querySelector('script[src*="kit.fontawesome.com"]')) return;
+
+  const script = document.createElement("script");
+  script.src = "https://kit.fontawesome.com/bfbf24a258.js";
+  script.crossOrigin = "anonymous";
+  script.async = true;
+  document.head.appendChild(script);
+}
+
 function renderHeader() {
   const mount = document.getElementById("site-header");
   if (!mount) return;
@@ -67,7 +77,7 @@ function renderFooter() {
             <span>Notes of Happiness</span>
           </div>
           <p class="footer-tagline">Spreading happiness, one note at a time — free violin performances for seniors, veterans, and children across the Phoenix community.</p>
-          <a class="footer-social" href="${INSTAGRAM_URL}" style = "font-weight: bold; font-size: 16px;" target="_blank" rel="noopener">Follow along on Instagram &rarr;</a>
+          <a class="footer-social" href="${INSTAGRAM_URL}" style = "font-weight: bold; font-size: 16px;" target="_blank" rel="noopener"><i class="fa-brands fa-instagram" aria-hidden="true"></i> Follow along on Instagram &rarr;</a>
         </div>
         <div>
           <div class="footer-heading">Explore</div>
@@ -97,6 +107,7 @@ function renderFooter() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
+  ensureFontAwesome();
   renderHeader();
   renderFooter();
 });
