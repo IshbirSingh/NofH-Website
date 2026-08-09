@@ -12,8 +12,6 @@ const GALLERY_IMAGES = [
     { file: "GlencroftCenerForModernAging1.jpg", caption: "Performing at Glencroft Center for Modern Aging" },
     { file: "GlencroftCenerForModernAging2.jpg", caption: "Performing at Glencroft Center for Modern Aging" },
     { file: "GlencroftCenerForModernAging3.jpg", caption: "Performing at Glencroft Center for Modern Aging" },
-    { file: "Gunayan the Violinist Photo 2023.png", caption: "Gunayan performing, 2023" },
-    { file: "IMG-20220409-WA0008.jpg", caption: "Notes of Happiness performance" },
     { file: "inspira1.jpg", caption: "Performing at Inspira" },
     { file: "inspira2.jpg", caption: "Performing at Inspira" },
     { file: "inspira4.jpg", caption: "Performing at Inspira" },
