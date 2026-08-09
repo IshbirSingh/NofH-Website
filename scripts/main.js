@@ -99,7 +99,7 @@ function renderFooter() {
         </div>
       </div>
       <div class="footer-bottom">
-        <span>&copy; ${new Date().getFullYear()} Notes of Happiness. A 501(c)(3) nonprofit based in Phoenix, AZ.</span>
+        <span>&copy; ${new Date().getFullYear()} Notes of Happiness. A 501(c)(3) nonprofit based in Phoenix, AZ. EIN: 33-1979482</span>
         <span>Founded by Gunayan Kaur &amp; Mayal Kaur, Website by Ishbir Singh</span>
       </div>
     </div>
