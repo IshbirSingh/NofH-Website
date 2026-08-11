@@ -597,6 +597,8 @@ p { margin: 0 0 1em; }
   display: grid;
   gap: 0.65rem;
   align-items: center;
+  justify-self: center;
+  max-width: 220px;
 }
 .blog-post-gallery-caption {
   text-align: center;
