@@ -597,7 +597,8 @@ p { margin: 0 0 1em; }
 }
 .blog-post-inline-image {
   display: block;
-  max-width: 100%;
+  width: auto;
+  max-width: 280px;
   height: auto;
   margin: 2rem auto 0;
   border-radius: 18px;
