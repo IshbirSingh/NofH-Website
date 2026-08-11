@@ -38,4 +38,20 @@ const BLOG_POSTS = {
     ],
   },
   
+  "second-blog-post":{
+    title: "Our New Team Members!",
+    date: "August 11, 2026",
+    cover: "images/blog/second_blog_cover.png",
+    excerpt: "   ",
+    body: [
+      "As our organization continues to grow, we are excited to welcome three talented individuals to our team who will help us expand our reach and create more opportunities to make a difference. Please welcome our Digital Marketing Manager <strong>Trinity Wong</strong>, Activities Manager <strong>Samreen Alam</strong>, and Recruitment Manager <strong>Neha Nair</strong>.",
+      "With Joy,",
+      "Notes of Happiness"
+    ],
+    gallery: [
+      { src: "images/team/trinity_headshot.jpg", caption: "Trinity Wong" },
+      { src: "images/team/samreen_headshot.jpg", caption: "Samreen Alam" },
+      { src: "images/team/neha_headshot.jpg", caption: "Neha Nair" },
+    ],
+  },
 }; 

@@ -23,7 +23,14 @@ function initBlogPost() {
   const galleryHtml =
     post.gallery && post.gallery.length
       ? `<div class="blog-post-gallery">${post.gallery
-          .map((src) => `<img src="${src}" alt="${post.title}" loading="lazy" />`)
+          .map((item) => {
+            const src = typeof item === "string" ? item : item.src;
+            const caption = item && typeof item === "object" ? item.caption : "";
+            const image = `<img src="${src}" alt="${post.title}" loading="lazy" />`;
+            return caption
+              ? `<div class="blog-post-gallery-item">${image}<div class="blog-post-gallery-caption">${caption}</div></div>`
+              : image;
+          })
           .join("")}</div>`
       : "";
 

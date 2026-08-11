@@ -593,6 +593,17 @@ p { margin: 0 0 1em; }
   border-radius: 12px;
   cursor: pointer;
 }
+.blog-post-gallery-item {
+  display: grid;
+  gap: 0.65rem;
+  align-items: center;
+}
+.blog-post-gallery-caption {
+  text-align: center;
+  color: var(--umber);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
 .blog-post-inline-image {
   display: block;
   width: auto;
