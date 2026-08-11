@@ -50,8 +50,8 @@ const BLOG_POSTS = {
     ],
     gallery: [
       { src: "images/team/trinity_headshot.jpg", caption: "Trinity Wong" },
-      { src: "images/team/samreen_headshot.jpg", caption: "Samreen Alam" },
-      { src: "images/team/neha_headshot.jpg", caption: "Neha Nair" },
+      { src: "images/team/samreenheadshot.jpg", caption: "Samreen Alam" },
+      { src: "images/team/nehaheadshot.jpg", caption: "Neha Nair" },
     ],
   },
 }; 
