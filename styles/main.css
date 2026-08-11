@@ -593,16 +593,20 @@ p { margin: 0 0 1em; }
   border-radius: 12px;
   cursor: pointer;
 }
-.blog-post-body { font-size: 1.15rem; max-width: 720px; margin: 0 auto; margin-top: 50px; margin-bottom: 50px; }
-.blog-empty { text-align: center; padding: 4rem 0; color: var(--umber); }
-
-/* ---------- Gallery ---------- */
-.gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  gap: 1rem;
+.blog-post-inline-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 2rem auto 0;
+  border-radius: 18px;
 }
-.gallery-grid img {
+.blog-post-image-caption {
+  text-align: center;
+  color: var(--umber);
+  margin: 0.75rem auto 1.75rem;
+  max-width: 100%;
+  font-size: 0.95rem;
+  line-height: 1.5;
   width: 100%;
   aspect-ratio: 1;
   object-fit: cover;

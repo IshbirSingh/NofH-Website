@@ -27,6 +27,8 @@ const BLOG_POSTS = {
     excerpt: "   ",
     body: [
       "We are excited to present our NofH website! We are looking forward to beginning this journey with you as we continue our mission of spreading joy through music. This blog will be a place where we share our stories, celebrate the impact of our community, highlight upcoming events, and show how music can bring hope, comfort, and connection to people of all ages.",
+      "<img src=\"images/team/ishbir_headshot.jpg\" alt=\"Ishbir Singh headshot\" class=\"blog-post-inline-image\" />",
+      "<p class=\"blog-post-image-caption\">Ishbir Singh</p>",
       "A special thank you to our website designer Ishbir Singh for creating such a beautiful and welcoming space for Notes of Happiness. We truly appreciate your hard work and support in helping us share our mission.",
       "With Joy,",
       "Notes of Happiness"
