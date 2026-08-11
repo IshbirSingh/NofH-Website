@@ -39,7 +39,7 @@ const BLOG_POSTS = {
   },
   
   "second-blog-post":{
-    title: "Our New Team Members!",
+    title: "Meet Our New Team!",
     date: "August 11, 2026",
     cover: "images/blog/second_blog_cover.png",
     excerpt: "   ",
