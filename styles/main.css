@@ -573,21 +573,23 @@ p { margin: 0 0 1em; }
   margin: 0 auto 1.5rem;
   box-shadow: var(--shadow);
 }
-.blog-post-gallery {
+..blog-post-gallery {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1rem;
   margin-top: 2.5rem;
+  justify-items: center;
 }
 
 @media (min-width: 700px) {
   /* Three gallery images per row on non-mobile devices */
   .blog-post-gallery {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(240px, 1fr));
   }
 }
 .blog-post-gallery img {
   width: 100%;
+  max-width: 520px;
   aspect-ratio: 1;
   object-fit: cover;
   border-radius: 12px;
@@ -607,12 +609,6 @@ p { margin: 0 0 1em; }
   max-width: 100%;
   font-size: 0.95rem;
   line-height: 1.5;
-  width: 100%;
-  aspect-ratio: 1;
-  object-fit: cover;
-  border-radius: 12px;
-  cursor: pointer;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .gallery-grid img:hover { transform: scale(1.02); box-shadow: var(--shadow); }
 
