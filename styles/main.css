@@ -573,6 +573,9 @@ p { margin: 0 0 1em; }
   margin: 0 auto 1.5rem;
   box-shadow: var(--shadow);
 }
+.blog-post-cover--small {
+  max-width: 420px;
+}
 .blog-post-gallery {
   display: grid;
   grid-template-columns: 1fr;

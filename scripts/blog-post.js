@@ -39,7 +39,7 @@ function initBlogPost() {
       <div class="eyebrow">${post.date}</div>
       <h1>${post.title}</h1>
     </div>
-    <img class="blog-post-cover" src="${post.cover}" alt="${post.title}" />
+    <img class="blog-post-cover${key === 'second-blog-post' ? ' blog-post-cover--small' : ''}" src="${post.cover}" alt="${post.title}" />
     <div class="blog-post-body">
       ${post.body.map((p) => `<p>${p}</p>`).join("")}
     </div>
