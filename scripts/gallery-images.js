@@ -18,6 +18,8 @@ const GALLERY_IMAGES = [
     { file: "inspira5.jpg", caption: "Performing at Inspira" },
     { file: "inspira6.jpg", caption: "Performing at Inspira" },
     { file: "inspira7.jpg", caption: "Performing at Inspira" },
+    { file: "images/home/pic4website.jpg", caption: "Performing at Inspira" },
+    { file: "images/home/DSC_0033.JPG", caption: "Performing at Inspira" },
 ];
 
 const GALLERY_IMAGE_FOLDER = "images/gallery/";
