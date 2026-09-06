@@ -54,4 +54,13 @@ const BLOG_POSTS = {
       { src: "images/team/nehaheadshot.jpg", caption: "Neha Nair" },
     ],
   },
+
+  "thrid-blog-post":{
+    title: "Music at Inspira Senior Living"
+    date: "September 5, 2026",
+    cover: "images/gallery/inspira8.jpg",
+    excerpt: "   ",
+    body: [
+      ""
+    ]
 }; 
