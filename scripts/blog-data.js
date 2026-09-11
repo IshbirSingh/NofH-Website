@@ -86,4 +86,12 @@ const BLOG_POSTS = {
       "images/gallery/inspira19.JPG",
     ],
   },  
+
+  "fourth-blog-post":{
+    title: "Interest Meeting on the 26th"
+    date: "September 10, 2026",
+    cover: "images/blog/paino image.jpg",
+    excerpt: "   ",
+    body: [
+      "images/blog/interstmeetingposter.png",
 }; 
