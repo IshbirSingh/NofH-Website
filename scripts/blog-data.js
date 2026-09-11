@@ -55,12 +55,35 @@ const BLOG_POSTS = {
     ],
   },
 
-  "thrid-blog-post":{
-    title: "Music at Inspira Senior Living"
+  "third-blog-post":{
+    title: "Music at Inspira Senior Living",
     date: "September 5, 2026",
     cover: "images/gallery/inspira8.jpg",
     excerpt: "   ",
     body: [
-      ""
-    ]
+      "This weekend, we had the pleasure of performing at Inspira Arrowhead Senior Living featuring ...",
+      "Liebslied by Fritz Kreisler, performed by Gunayan Kaur",
+      "The Entertainer by Scott Joplin, performed by Iris Choi and Samreen Alam",
+      "Concertino in D Major by Ferdinand Kuchler, performed by Mayal Kaur",
+      "Partita No. 2 in D Minor by J.S. Bach, performed by Gunayan Kaur",
+      "Dream A Little Dream of Me by the Mamas and the Papas, performed by Neha Nair",
+      "Thank you to our performers and most importantly Inspira for having us!"
+      "With Joy,",
+      "Notes of Happiness"
+    ],
+    gallery: [
+      { src: "images/gallery/inspira8.jpg", caption: "Performing at Inspira" },
+      { src: "images/gallery/inspira9.jpg", caption: "Performing at Inspira" },
+      { src: "images/gallery/inspira10.JPG", caption: "Performing at Inspira" },
+      { src: "images/gallery/inspira11.JPG", caption: "Performing at Inspira" },
+      { src: "images/gallery/inspira12.JPG", caption: "Performing at Inspira" },
+      { src: "images/gallery/inspira13.JPG", caption: "Performing at Inspira" },
+      { src: "images/gallery/inspira14.JPG", caption: "Performing at Inspira" },
+      { src: "images/gallery/inspira15.JPG", caption: "Performing at Inspira" },
+      { src: "images/gallery/inspira16.JPG", caption: "Performing at Inspira" },
+      { src: "images/gallery/inspira17.JPG", caption: "Performing at Inspira" },
+      { src: "images/gallery/inspira18.JPG", caption: "Performing at Inspira" },
+      { src: "images/gallery/inspira19.JPG", caption: "Performing at Inspira" },
+    ],
+  },  
 }; 
