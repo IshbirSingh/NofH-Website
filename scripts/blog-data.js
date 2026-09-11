@@ -93,6 +93,9 @@ const BLOG_POSTS = {
     cover: "images/blog/paino image.jpg",
     excerpt: "   ",
     body: [
-      "images/blog/interstmeetingposter.png",
+      "   ",
+    ]
+    gallery: [
+      "images/blog/interstmeetingposter.png"
     ],
 }; 
