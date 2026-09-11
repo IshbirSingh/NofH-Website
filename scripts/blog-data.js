@@ -62,11 +62,11 @@ const BLOG_POSTS = {
     excerpt: "   ",
     body: [
       "This weekend, we had the pleasure of performing at Inspira Arrowhead Senior Living featuring ...",
-      "Liebslied by Fritz Kreisler, performed by Gunayan Kaur",
-      "The Entertainer by Scott Joplin, performed by Iris Choi and Samreen Alam",
-      "Concertino in D Major by Ferdinand Kuchler, performed by Mayal Kaur",
-      "Partita No. 2 in D Minor by J.S. Bach, performed by Gunayan Kaur",
-      "Dream A Little Dream of Me by the Mamas and the Papas, performed by Neha Nair",
+      " - Liebslied by Fritz Kreisler, performed by Gunayan Kaur",
+      " - The Entertainer by Scott Joplin, performed by Iris Choi and Samreen Alam",
+      " - Concertino in D Major by Ferdinand Kuchler, performed by Mayal Kaur",
+      " - Partita No. 2 in D Minor by J.S. Bach, performed by Gunayan Kaur",
+      " - Dream A Little Dream of Me by the Mamas and the Papas, performed by Neha Nair",
       "Thank you to our performers and most importantly Inspira for having us!",
       "With Joy,",
       "Notes of Happiness"
