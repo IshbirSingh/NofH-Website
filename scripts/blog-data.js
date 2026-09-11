@@ -88,14 +88,15 @@ const BLOG_POSTS = {
   },  
 
   "fourth-blog-post":{
-    title: "Interest Meeting on the 26th"
+    title: "Interest Meeting on the 26th",
     date: "September 10, 2026",
     cover: "images/blog/paino image.jpg",
     excerpt: "   ",
     body: [
       "   ",
-    ]
+    ],
     gallery: [
       "images/blog/interstmeetingposter.png"
     ],
+  },
 }; 
