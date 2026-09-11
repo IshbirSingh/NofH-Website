@@ -94,4 +94,5 @@ const BLOG_POSTS = {
     excerpt: "   ",
     body: [
       "images/blog/interstmeetingposter.png",
+    ],
 }; 
